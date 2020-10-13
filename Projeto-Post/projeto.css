@@ -1,0 +1,94 @@
+/*limpar as formataçoes padrao * significa tudo*/
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Trebuchts MS", Helvetica, sans-serif;
+    background: #757575;
+}
+
+#logo {
+    margin: 1%;
+    float: left;
+    color: #b61c11;
+    text-shadow: 3px 3px 2px rgba(99, 97, 97, 0.603);
+}
+
+#menu {
+    float: right;
+    padding: 1.7% 0;
+}
+
+#navegacao {
+    background: rgb(46, 46, 46);
+    border-bottom: 1px solid #d8d8d8;
+    height: 9%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#home{
+    margin-top: 8%;
+}
+
+h2 {
+    color: #e20d0d;
+}
+/*formatação de menu*/
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+/*Links nao visitados*/
+a:link {
+    color: #000000;
+}
+
+/*Links visitados*/
+a:visited {
+    color: #8d8a8a;
+}
+
+/*Links hover*/
+a:hover {
+    color: #fff;
+    background: #ca0d0d;
+}
+
+/*Links active*/
+a:active {
+    color: #000000;
+}
+
+/*classes*/
+
+.area-principal {
+    background: rgb(228, 228, 228);
+    width:90%;
+    padding: 2%;
+    margin-bottom:10px;
+    margin: 55px auto 10px auto;
+    border-radius: 10px;
+}
+
+@keyframes animacao-box{ 
+	from {background: rgb(228, 228, 228);
+		border-radius: 10px; 
+		width:90%;
+		height: 100.8px;
+	}
+	to {background: rgb(228, 228, 228);
+		border-radius: 10px; 
+		width:95%;
+		height: 140px;
+	}
+ }

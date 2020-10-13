@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+
+    <title>Calcualdora Js</title>
+</head>
+    <body>
+        
+        <main>
+            <h1>Calcualdora javascript</h1>
+
+            <p class="valores">
+            <label>Valor1: </label>
+            <input id="valor1" type="number">
+            </p>
+            
+            <p class="valores">
+            <label>Valor2: </label>
+            <input id="valor2" type="number">
+            </p>
+            <br>
+
+            <select id="operador" class="escolhaOperadores">
+                <optgroup id="operador" label="OPERADORES">
+                    <option value="+">Adição</option>
+                    <option value="-">Subtração</option>
+                    <option value="/">Divisão</option>
+                    <option value="*">Multiplicação</option>
+                </optgroup>
+            </select>
+
+            <input type="button" value="Calcular" onclick="calcular()">
+
+            <br>
+            <p id="resultado">Resultado Aqui </p>
+        </main>
+        
+    </body>
+</html>

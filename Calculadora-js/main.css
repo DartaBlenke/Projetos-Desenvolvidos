@@ -1,0 +1,11 @@
+    body {
+        background: blue;
+        text-align: center;
+        margin: 10% 30%;
+        
+    }
+
+    body main {
+        background: grey;
+        border-radius: 8px;
+    }

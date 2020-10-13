@@ -1,0 +1,150 @@
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Times,serif;
+    font-size: medium;
+    font-weight: normal;
+    background-color: rgb(51,51,51);
+}
+
+main{
+    width: 1800px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.headers{
+    width: inherit;
+    height: 75px;
+    background-color: #eabc1e;
+    overflow: hidden;
+}
+
+#header{
+    position: fixed;
+}
+
+#div_login{
+    height: 100%;
+    margin-right: 15%;
+    float: right;
+}
+
+#div_login ul{
+    margin: 0; 
+    padding-top: 15px;
+}
+
+#div_login li{ 
+    list-style: none;
+    display: inline-block;
+    padding-left: 1em;
+    text-decoration: none;
+    text-shadow: #020101 1px 6px 5px;
+    font-size: 125%;
+}
+
+#div_login a{
+    display: block;
+    text-decoration: none;
+    color: rgb(34,34,34);
+    padding-bottom: 15px;   
+}
+
+#div_login a:hover{
+    border-bottom: solid  2px #020101 ;
+}
+
+
+#nav_search{
+    height: 100%;
+    margin-right: 15%;
+    float: right;
+}
+
+#nav_search form{
+    padding-top: 6%;
+}
+
+#nav_search input{
+    width: 25em;
+    height: 2.6em;
+    border: solid 1px #020101;
+    background-color: #eabc1e;
+}
+
+#div_logo{
+    height: 100%;
+    margin-left: 15%;
+}
+
+#div_logo img{
+    padding-top: 20px;
+}
+
+#div_banner{
+    display: flex;
+    padding-top: 75px;
+}
+
+#icone{
+    padding: 3.5px 0px;
+    margin-left: 46.6%;
+}
+
+#content{
+    width: 100%;
+    overflow: hidden;
+}
+
+.img_pic{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    box-shadow: 6px 7px 5px rgb(0, 0,0);
+}
+
+.div_sections{
+    float: right;
+    margin: 12% 12% 8.2% 0%;
+ 
+}
+
+.div_sections h2 {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;  
+}
+
+.barras_precos{
+    width: 200px;
+    height: 60px;
+    margin-top: 340px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    background-color: #eabc1e;
+    position: absolute;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;  
+}
+
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #eabc1e;
+    overflow: hidden;
+}
+
+small p{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px ;
+    display: b;
+}
+
+

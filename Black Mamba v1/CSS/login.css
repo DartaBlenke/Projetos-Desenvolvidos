@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Times,serif;
+    font-size: medium;
+    font-weight: normal;
+    background-color: rgb(51,51,51);
+}
+
+#conteudo_login{
+   margin: 14% auto;
+}
+
+#container{
+    margin: auto;
+    width: 30em;
+    height: 30em;
+    border-radius: 40px;
+    background-color: #eabc1e;
+    box-shadow: #020101 11px 15px 9px;
+    overflow: hidden;
+}
+
+#container img{
+ padding: 3% 42%;
+}
+
+.input-box{
+    margin: 31px ;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.usuario-password{
+    margin: 7%;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:  #020101;
+    padding-bottom: 5px; 
+    border-bottom: 2px solid #020101;
+}
+
+::placeholder{
+    color:  #020101;
+}
+
+#usuario-enviar{
+margin: 10% 11%;
+width: 80%;
+display: block;
+outline: none;
+padding: 10px 0;
+border: 1px solid #020101;
+cursor: pointer;
+background: transparent;
+}
+
